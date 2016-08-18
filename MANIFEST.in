@@ -1,1 +1,1 @@
-recursive-include django_google_analytics/templates *
+recursive-include dash_google_analytics/templates *
