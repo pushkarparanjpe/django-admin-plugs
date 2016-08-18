@@ -11,4 +11,5 @@ setup(
     author_email='pushkar@metamatic.us',
     url='https://github.com/pushkarparanjpe/django-admin-plugs/',
     packages=find_packages(exclude=['DjangoAdminPlugs']),
+    include_package_data=True,
 )
