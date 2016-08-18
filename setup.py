@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
 from distutils.core import setup
-from setuptools import find_packages
 
 setup(
     name='django-admin-plugs',
@@ -10,5 +9,5 @@ setup(
     author='Pushkar Paranjpe',
     author_email='pushkar@metamatic.us',
     url='https://github.com/pushkarparanjpe/django-admin-plugs/',
-    packages=find_packages(exclude=['tests']),
+    packages=['dash_google_analytics'],
 )
